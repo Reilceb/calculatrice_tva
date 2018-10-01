@@ -1,0 +1,8 @@
+<?php
+
+define("DSN", "mysql:host=localhost;dbname=calculatrice_tva");
+define("USER", "username");
+define("PASS", "password");
+
+// Connection
+$pdo = new PDO(DSN, USER, PASS);
